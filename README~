@@ -1,0 +1,27 @@
+* chokichoki-beep.el
+This is a joke software.
+Do not use it to bother your friends/co-workers.
+It might cause interpersonal problems.
+
+** How to use?
+(1) Put chokichoki-beep.el in a load-path directory.
+(2) Add descriptions in .emacs:
+      (load "chokichoki-beep")
+      (setq visible-bell t)
+      (setq ring-bell-function 'chokichoki-beep)
+
+    Or just play with it:
+      (load "chokichoki-beep")
+      M-x chokichoki-beep
+
+** Settings
+If you want to change the chokichoki speed,
+change the chokichoki-beep-interval-time value.
+e.g.,
+ (setq chokichoki-beep-interval-time 0.1)
+
+** Contact
+Any comments are always welcome. :)
+
+ E-mail: y.suhara <at> gmail.com
+Twitter: <at>sleepy_yoshi

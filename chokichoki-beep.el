@@ -5,7 +5,7 @@
 ;; How to use?
 ;; 
 ;; (1) Put chokichoki-beep.el in a load-path directory.
-;; (2) Add descriptions in .emacs:
+;; (2) Add below descriptions in .emacs:
 ;;       (load "chokichoki-beep")
 ;;       (setq visible-bell t)
 ;;       (setq ring-bell-function 'chokichoki-beep)
